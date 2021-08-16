@@ -1,0 +1,269 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', ;
+}
+
+:root{
+  --color-blue: #2196f3;
+  --color-white: #fff;
+  --color-grey: #757575;
+  --color-black: #212121;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0 auto;
+  color: var(--color-black);
+}
+
+ul {
+  list-style: none;
+}
+
+img{
+  display: block;
+}
+
+.container{
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.black{
+  color: var(--color-black);
+}
+
+.blue{
+  color: var(--color-blue);
+}
+
+.grey{
+  color: var(--color-grey);
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  color: #2196f3;
+}
+
+.link:focus {
+  color: #2196f3;
+}
+
+
+.link:visited {
+  color: none;
+}
+
+.header {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  align-items: center;
+}
+
+.main-header {
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid #EEEEEE;
+}
+
+.ul-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.webstudio {
+  margin: 0 93px 0 0px;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.raleway{
+  font-family: 'Raleway';
+}
+
+.studio {
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.portfolio {
+  margin-right: 50px;
+  font-weight: bold;
+}
+
+.contacts{
+  font-weight: bold;
+}
+
+.mail {
+  font-weight: 500;
+}
+
+.tel{
+  font-weight: 500;
+  margin: 0 0 0 50px;
+}
+
+.mail-tel{
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.container-nav{
+  display: flex;
+
+}
+
+/* MAIN */
+
+.container-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.main{
+  margin: 94px 0 94px 0;
+}
+
+.text-button{
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.button{
+  padding: 6px 22px;
+  background-color: var(--color-grey-light);
+  border-radius: 4px;
+  border: none;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+
+
+.button-fover-focus{
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button:hover{
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.button:focus{
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.container-project{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+.project{
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  margin-left: 30px;
+}
+
+.project-name{
+  letter-spacing: 0.06em;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--color-black);
+}
+
+.project-text{
+  letter-spacing: 0.03em;
+  color: var(--color-grey);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.text-project-box{
+  padding: 20px 24px 20px 24px;
+  border: 1px solid #EEEEEE;
+  border-top: none;
+}
+
+
+
+/* Footer */
+
+.footer {
+  background-color: #2f303a;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address {
+  margin: 20px 0 0 0;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  margin: 60px 0 0 0px;
+}
+
+.logo {
+  color: var(--color-white);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+}
+
+.location {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--color-white);
+}
+
+.address-mail {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-tel {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
